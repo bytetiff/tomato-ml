@@ -1,0 +1,1 @@
+experiments/teacher/convnext_tiny_mix_clean_lr5e5/convnext_tiny.fb_in22k_ft_in1k-xpu-best.pth filter=lfs diff=lfs merge=lfs -text

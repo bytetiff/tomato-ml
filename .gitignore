@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Virtual env
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Data (large / local)
+data/raw/
+data/processed/
+
+# Outputs / experiments
+outputs/
+experiments/
+
+# Temp
+_tmp_hrrformer/
+_tmp_hrrformer.zip
+
+# Allow the selected checkpoint to be tracked
+!experiments/
+!experiments/teacher/
+!experiments/teacher/convnext_tiny_mix_clean_lr5e5/
+!experiments/teacher/convnext_tiny_mix_clean_lr5e5/convnext_tiny.fb_in22k_ft_in1k-xpu-best.pth
